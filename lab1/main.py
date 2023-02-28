@@ -11,10 +11,11 @@ def my_printf(format_string,param):
                 print(param.swapcase(),end="")
                 shouldDo=False
             else:
-                print(format_string[idx].swapcase(),end="")
+                print(format_string[idx],end="")
         else:
             shouldDo=True
     print("")
+
 
 data=sys.stdin.readlines()
 
