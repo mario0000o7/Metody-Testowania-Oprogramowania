@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import sys
 
 def my_printf(string_param,param):
